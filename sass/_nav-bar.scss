@@ -1,0 +1,31 @@
+.nav{
+  grid-column: 7 / 13;
+  display: flex;
+  justify-content: flex-end;
+
+  &>*:not(:last-child){
+    margin-right: 1rem;
+  }
+  & > * {
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  &-menu{
+    &-img{
+      width: 3rem;
+      height: 3rem;
+      display: block;
+    }
+  }
+
+  &__user{
+    &-img{
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 50%;
+      overflow: hidden;
+
+    }
+  }
+}

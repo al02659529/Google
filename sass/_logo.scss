@@ -1,0 +1,10 @@
+.logo{
+  grid-column: 5 / 9;
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+  &__img{
+    display: block;
+    width: 27.2rem;
+  }
+}

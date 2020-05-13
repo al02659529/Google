@@ -1,0 +1,15 @@
+{
+  "name": "Google",
+  "version": "1.0.0",
+  "description": "google webpage",
+  "main": "main.js",
+  "scripts": {
+    "devserver": "live-server --browser=firefox --open=main.html",
+    "start": "npm run devserver"
+  },
+  "author": "Daniel Rosales",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

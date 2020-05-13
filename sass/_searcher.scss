@@ -1,0 +1,92 @@
+.searcher{
+  grid-column: 5 / 9;
+  display: grid;
+  justify-items: center;
+  grid-gap: 3rem;
+
+
+
+  &__bar{
+    display: block;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border: 1px solid $color-grey-light-2;
+    width: 48.2rem;
+    height: 4.4rem;
+    padding-left: 5rem;
+    position: relative;
+    color: #222;
+
+    &:focus{
+      outline: none;
+      box-shadow: 0 .5rem 1rem rgba(black, .1);
+    }
+
+    &:hover{
+      -moz-box-shadow:  0 3px 20px -8px rgba(0, 0, 0, 0.2);
+      box-shadow:  0 3px 20px -8px rgba(0, 0, 0, 0.2);
+      border: 1px solid $color-grey-light-1;
+
+
+    }
+  }
+
+  &__icon{
+    fill: #9AA0A6;;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    transform: translateX(-24rem) translateY(1.5rem);
+  }
+  &__buttons{
+
+
+    &-btn{
+      display: inline-block;
+      background-color: $color-grey-light-1;
+      color: $color-grey-dark-1;
+      font-size: 1.4rem;
+      border: none;
+      padding: 0 1.6rem;
+      height: 3.6rem;
+      transition: all .1s;
+
+      &:not(:last-child){
+        margin-right: .8rem;
+      }
+      &:hover{
+        cursor: pointer;
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+      }
+    }
+  }
+
+  &__covidAviso{
+    font-size: 1.4rem;
+    text-decoration: none;
+    &:visited{
+      color: blue;
+    }
+  }
+
+  &__idioma{
+    &-texto{
+      font-size: 1.4rem;
+      color: #222;
+    }
+
+    &-idioma{
+      text-decoration: none;
+
+      &:visited{
+        color: blue;
+      }
+    }
+
+  }
+
+}
